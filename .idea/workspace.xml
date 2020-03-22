@@ -3,17 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="de9f3ac6-77cf-4cf7-b9ab-3da664a4955e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/products/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/products/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/products/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/products/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/products/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/products/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/products/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/products/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/products/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/products/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/403.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/403.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addProduct.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addProduct.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/deleteProduct.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/deleteProduct.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/updateProduct.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/updateProduct.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/products/ProductsSecurityApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/updateProductResult.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/updateProductResult.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,12 +20,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/products/service/ProductServiceImplTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sql-code/createAndInsert.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="204">
+              <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/products/controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,30 +48,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+              <first_editor>
+                <caret column="19" selection-start-column="19" selection-end-column="19" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/products/service/ProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -77,6 +64,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -86,22 +74,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/templates/403.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/addProduct.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/errorGetOrUpdateOrDelete.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/main.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/products.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/updateProductResult.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/products/repository/ProductRepository.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/products/model/Product.java" />
         <option value="$PROJECT_DIR$/AppLogs/app.log/spring.log" />
         <option value="$PROJECT_DIR$/src/main/java/com/products/config/SecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/deleteProduct.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/updateProduct.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/products/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/products/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/sql-code/createAndInsert.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/products/ProductsSecurityApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/products/ProductsSecurityApplicationTest.java" />
@@ -109,6 +90,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/products/service/ProductServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/products/service/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/sql-code/createAndInsert.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/jsfile.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/403.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/addProduct.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/updateProduct.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/updateProductResult.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/products/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/deleteProduct.ftl" />
       </list>
     </option>
   </component>
@@ -190,6 +179,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="products-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="products-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="products-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="products-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,6 +235,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sql-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="products-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="products-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="products-security" type="b2602c69:ProjectViewProjectNode" />
@@ -282,10 +299,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582017736973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584446697303" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../fortest/learn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
@@ -335,8 +352,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ProductsSecurityApplication" />
       <item itemvalue="JUnit.ProductServiceImplTest" />
+      <item itemvalue="Spring Boot.ProductsSecurityApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -446,6 +463,23 @@
       <workItem from="1567364322643" duration="927000" />
       <workItem from="1567328410967" duration="49000" />
       <workItem from="1567328949269" duration="945000" />
+      <workItem from="1567338854426" duration="49000" />
+      <workItem from="1567363771412" duration="1184000" />
+      <workItem from="1567324814351" duration="39000" />
+      <workItem from="1584445825594" duration="303000" />
+      <workItem from="1567339162666" duration="17000" />
+      <workItem from="1567339203908" duration="311000" />
+      <workItem from="1584552609288" duration="1104000" />
+      <workItem from="1584554035464" duration="148000" />
+      <workItem from="1584555090779" duration="1675000" />
+      <workItem from="1584619395995" duration="1175000" />
+      <workItem from="1584641618520" duration="192000" />
+      <workItem from="1584647844637" duration="58000" />
+      <workItem from="1584801329830" duration="599000" />
+      <workItem from="1584805633534" duration="138000" />
+      <workItem from="1584874823184" duration="89000" />
+      <workItem from="1567335895629" duration="439000" />
+      <workItem from="1567336377081" duration="117000" />
     </task>
     <servers />
   </component>
@@ -482,12 +516,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56713000" />
+    <option name="totallyTimeSpent" value="64350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23720682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27771854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -526,27 +560,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/403.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/products.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvnw">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -560,96 +573,11 @@
     <entry file="file://$PROJECT_DIR$/logsnew/spring.log" />
     <entry file="file://$PROJECT_DIR$/AppLogs/app.log/spring.log" />
     <entry file="file://$PROJECT_DIR$/AppLogs/app.log/spring.log.2020-02-13.0/spring.log.2020-02-13.0" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateProductResult.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateProduct.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addProduct.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/deleteProduct.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/errorUpdateOrDelete.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/products/config/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/spring.log.2020-02-16.0/spring.log.2020-02-16.0">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/products/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/spring.log.2020-02-16.0/spring.log.2020-02-16.0" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/products/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,17 +673,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/products/ProductsSecurityApplicationTest.java" />
-    <entry file="file://$PROJECT_DIR$/logs/spring.log">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/products/ProductsSecurityApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/products/config/SecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11442">
-          <caret line="952" selection-start-line="952" selection-end-line="952" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/products/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/products/repository/ProductRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -764,33 +706,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/products/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/products/ProductsSecurityApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql-code/createAndInsert.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/products/ProductsSecurityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/products/service/ProductServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="187">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -799,18 +716,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/products/service/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
             <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/products/service/ProductServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/jsfile.js" />
+    <entry file="file://$PROJECT_DIR$/logs/spring.log" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/errorUpdateOrDelete.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/products.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateProduct.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/updateProductResult.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/deleteProduct.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addProduct.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/403.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/products/ProductsSecurityApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql-code/createAndInsert.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/products/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -818,8 +842,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+          <first_editor>
+            <caret column="19" selection-start-column="19" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>

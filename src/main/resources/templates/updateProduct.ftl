@@ -18,9 +18,13 @@
 <br>
 
 <form action="/products/update" method="post">
-    <h3 style="width: 20%">Номер обновляемого продукта:</h3>
-    <input type="number" name="id" required="required" min="1">
-    <input type="submit" value="Обновить">
+
+    <div>
+        <p>Номер обновляемого продукта:</p>
+        <input placeholder="1" type="number" name="id" required min="1">
+        <button type="submit">Обновить</button>
+    </div>
+
 </form>
 
 <br>

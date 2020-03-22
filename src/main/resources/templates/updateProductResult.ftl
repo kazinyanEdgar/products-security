@@ -54,22 +54,21 @@
 <h3>Введите новые данные:</h3>
 <form action="/products/updateProduct" method="post">
 
-    Название:<br>
-    <input type="text" name="name" required="required">
+    <div>
+        <p>Название:</p>
+        <input placeholder="${product.name}" type="text" name="name" required>
+
+        <p>Цена:</p>
+        <input placeholder="${product.price}" type="number" name="price" required min="1">
+
+        <input type="hidden" name="id" value="${product.id}">
+    </div>
 
     <br>
     <br>
 
-    Цена:<br>
-    <input type="number" name="price" required="required" min="1">
-
-    <br>
-    <br>
-
-    <input type="hidden" name="id" value="${product.id}">
-
-    <input type="submit" value="Перезаписать">
-    <input type="reset" value="Очистить">
+    <button type="submit">Перезаписать</button>
+    <button type="reset">Очистить</button>
 
 </form>
 

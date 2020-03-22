@@ -18,9 +18,13 @@
 <br>
 
 <form action="/products/delete" method="post">
-    <h3 style="width: 15%">Номер удаляемого продукта:</h3>
-    <input type="number" name="id" required="required" min="1">
-    <input type="submit" value="Удалить">
+
+    <div>
+        <p>Номер удаляемого продукта:</p>
+        <input placeholder="1" type="number" name="id" required min="1">
+        <button type="submit">Удалить</button>
+    </div>
+
 </form>
 
 <br>

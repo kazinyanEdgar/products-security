@@ -18,20 +18,21 @@
 
 <form action="/products/add" method="post">
 
-    Название:<br>
-    <input type="text" name="name" required="required">
+    <div>
+        <p>Название:</p>
+        <input type="text" name="name" required>
+
+        <p>Цена:</p>
+        <input placeholder="1000" type="number" name="price" required min="1">
+    </div>
 
     <br>
     <br>
 
-    Цена:<br>
-    <input type="number" name="price" required="required" min="1">
-
-    <br>
-    <br>
-
-    <input type="submit" value="Добавить">
-    <input type="reset" value="Очистить">
+    <div>
+        <button type="submit">Добавить</button>
+        <button type="reset">Очистить</button>
+    </div>
 
 </form>
 
